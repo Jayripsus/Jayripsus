@@ -884,6 +884,982 @@ coroutine.wrap(BEZD_fake_script)()
   	end    
 })
 
+-----message CODE
+
+JTab:AddButton({
+	Name = "Slayers Hub",
+	Callback = function()
+    if game.Players.LocalPlayer.Name == "Alzn_Scripting" then
+local A_1 = "[loading key system please wait.]"-----message here
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+wait(5)
+local A_1 = "[SuccessFully Loaded the key system]"-----message here
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+
+toggle = true
+
+local key = "Alzn"
+
+
+local ScreenGui69 = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local Left = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Holder = Instance.new("Frame")
+local Credits = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local Main = Instance.new("Frame")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Home = Instance.new("Frame")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local account_circle = Instance.new("ImageButton")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local KeySystem = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local TextButton_12 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local TextLabel_24 = Instance.new("TextLabel")
+local TextLabel_25 = Instance.new("TextLabel")
+local TextLabel_26 = Instance.new("TextLabel")
+local TextLabel_27 = Instance.new("TextLabel")
+local TextLabel_28 = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_29 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_30 = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui69.Name = "ScreenGui69"
+ScreenGui69.Parent = game.CoreGui
+ScreenGui69.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui69
+Frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Frame.Position = UDim2.new(0.206097841, 0, 0.2407628, 0)
+Frame.Size = UDim2.new(0, 773, 0, 487)
+Frame.Visible = false
+Frame.Active = true
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.000480044633, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 634, 0, 50)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Slay"
+TextLabel.TextColor3 = Color3.fromRGB(0, 255, 247)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.167254433, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 492, 0, 50)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "e"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 255, 247)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.266132385, 0, 0.0020533856, 0)
+TextLabel_3.Size = UDim2.new(0, 535, 0, 50)
+TextLabel_3.Font = Enum.Font.GothamBold
+TextLabel_3.Text = "H"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 34, 34)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.310256124, 0, -0.00205339678, 2)
+TextLabel_4.Size = UDim2.new(0, 526, 0, 50)
+TextLabel_4.Font = Enum.Font.GothamBold
+TextLabel_4.Text = "U"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 97, 94)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.351185501, 0, -0.00205339678, 1)
+TextLabel_5.Size = UDim2.new(0, 519, 0, 50)
+TextLabel_5.Font = Enum.Font.GothamBold
+TextLabel_5.Text = "B"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 30, 29)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+Left.Name = "Left"
+Left.Parent = Frame
+Left.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Left.BorderSizePixel = 0
+Left.Size = UDim2.new(0, 148, 0, 487)
+
+TextButton.Parent = Left
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.114864863, 0, 0.0451745391, 0)
+TextButton.Size = UDim2.new(0, 113, 0, 28)
+TextButton.Font = Enum.Font.GothamMedium
+TextButton.Text = "Home"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:Connect(function()
+	Home.Visible = true
+	Credits.Visible = false
+	Main.Visible = false
+end)
+
+TextButton_2.Parent = Left
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(0.0945945978, 0, 0.123203278, 0)
+TextButton_2.Size = UDim2.new(0, 122, 0, 26)
+TextButton_2.Font = Enum.Font.GothamMedium
+TextButton_2.Text = "Main"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+TextButton_2.MouseButton1Down:Connect(function()
+	Home.Visible = false
+	Credits.Visible = false
+	Main.Visible = true
+end)
+
+TextButton_3.Parent = Left
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(0.141891897, 0, 0.205338821, 0)
+TextButton_3.Size = UDim2.new(0, 109, 0, 21)
+TextButton_3.Font = Enum.Font.GothamMedium
+TextButton_3.Text = "Discord (still broken)"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+
+TextButton_4.Parent = Left
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.Position = UDim2.new(0.175675675, 0, 0.275153995, 0)
+TextButton_4.Size = UDim2.new(0, 98, 0, 23)
+TextButton_4.Font = Enum.Font.GothamMedium
+TextButton_4.Text = "Credits"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+TextButton_4.MouseButton1Down:Connect(function()
+	Home.Visible = false
+	Credits.Visible = true
+	Main.Visible = false
+end)
+
+UICorner.Parent = Left
+
+Holder.Name = "Holder"
+Holder.Parent = Frame
+Holder.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Holder.BorderSizePixel = 0
+Holder.Position = UDim2.new(0.227665707, 0, 0.217659146, 0)
+Holder.Size = UDim2.new(0, 514, 0, 369)
+
+Credits.Name = "Credits"
+Credits.Parent = Holder
+Credits.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0, 0, -0.0159999784, 0)
+Credits.Size = UDim2.new(0, 555, 0, 369)
+Credits.Visible = false
+
+TextLabel_6.Parent = Credits
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.18871595, 0, 0.276422769, 0)
+TextLabel_6.Size = UDim2.new(0, 317, 0, 35)
+TextLabel_6.Font = Enum.Font.GothamBold
+TextLabel_6.Text = " Founder And Maker of Slayers Hub"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 247, 6)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = Credits
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.062256813, 0, 0.409214109, 0)
+TextLabel_7.Size = UDim2.new(0, 253, 0, 25)
+TextLabel_7.Font = Enum.Font.GothamBold
+TextLabel_7.Text = "FINDHIMM"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+TextLabel_8.Parent = Credits
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.163424119, 0, 0.501355052, 0)
+TextLabel_8.Size = UDim2.new(0, 319, 0, 35)
+TextLabel_8.Font = Enum.Font.GothamBold
+TextLabel_8.Text = "Co-Founder of slayers hub and an inspiration to making this script a thing"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 247, 6)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+TextLabel_9.Parent = Credits
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.252918273, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 253, 0, 50)
+TextLabel_9.Font = Enum.Font.GothamBold
+TextLabel_9.Text = "CREDITS"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+ImageLabel.Parent = Credits
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.0116731515, 0, 0.371273696, 0)
+ImageLabel.Size = UDim2.new(0, 91, 0, 69)
+ImageLabel.Image = "rbxassetid://10608543561"
+
+ImageLabel_2.Parent = Credits
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.0116731515, 0, 0.157181576, 0)
+ImageLabel_2.Size = UDim2.new(0, 91, 0, 69)
+ImageLabel_2.Image = "rbxassetid://10608522399"
+
+TextLabel_10.Parent = Credits
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.18871595, 0, 0.184281841, 0)
+TextLabel_10.Size = UDim2.new(0, 253, 0, 25)
+TextLabel_10.Font = Enum.Font.GothamBold
+TextLabel_10.Text = "thedragonslayeralt17"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+TextLabel_11.Parent = Credits
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.163424119, 0, -0.008130081, 0)
+TextLabel_11.Rotation = 40.000
+TextLabel_11.Size = UDim2.new(0, 89, 0, 61)
+TextLabel_11.Font = Enum.Font.GothamBold
+TextLabel_11.Text = "⭐"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 247, 6)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+Main.Name = "Main"
+Main.Parent = Holder
+Main.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0, 0, -0.0159999784, 0)
+Main.Size = UDim2.new(0, 555, 0, 369)
+Main.Visible = false
+
+TextButton_5.Parent = Main
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BackgroundTransparency = 1.000
+TextButton_5.Position = UDim2.new(0.0564202331, 0, 0.157181576, 0)
+TextButton_5.Size = UDim2.new(0, 116, 0, 34)
+TextButton_5.Font = Enum.Font.GothamBold
+TextButton_5.Text = "AutoFarm (improved)"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+TextButton_5.MouseButton1Down:Connect(function()
+	if toggle == true then 
+		toggle = false 
+	else
+		toggle = true
+	end
+	if toggle == true then 
+		while true do
+			wait()
+			for i = 1,40 do
+				if game.Players.LocalPlayer.Character:FindFirstChild("sword") then
+					game.Players.LocalPlayer.Character.sword.Handle.up.RemoteEvent:FireServer()
+				else
+					game.Players.LocalPlayer.Backpack.sword.Handle.up.RemoteEvent:FireServer()
+					game:GetService("RunService").Heartbeat:Wait()
+				end
+			end
+		end
+	end
+	if toggle == false then 
+		game.Players.LocalPlayer.Character.Humanoid:Destroy()
+	end
+
+	if toggle == true then
+		while true do
+			wait()
+			for i = 1,40 do
+				if game.Players.LocalPlayer.Character:FindFirstChild("sword") then
+					game.Players.LocalPlayer.Character.sword.Handle.up.RemoteEvent:FireServer()
+				else
+					game.Players.LocalPlayer.Backpack.sword.Handle.up.RemoteEvent:FireServer()
+					game:GetService("RunService").Heartbeat:Wait()
+				end
+			end
+		end
+	end
+	if toggle == false then 
+		game.Players.LocalPlayer.Character.Humanoid:Destroy()
+	end
+end)
+
+TextButton_6.Parent = Main
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.Position = UDim2.new(0.638132274, 0, 0.157181576, 0)
+TextButton_6.Size = UDim2.new(0, 116, 0, 34)
+TextButton_6.Font = Enum.Font.GothamBold
+TextButton_6.Text = "ivhub"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+TextButton_6.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\79\109\110\105\112\111\116\101\110\99\101\68\101\118\101\108\111\112\101\114\47\78\117\109\98\101\114\47\109\97\105\110\47\49\46\108\117\97'))()
+end)
+
+TextButton_7.Parent = Main
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BackgroundTransparency = 1.000
+TextButton_7.Position = UDim2.new(0.056420207, 0, 0.452574551, 0)
+TextButton_7.Size = UDim2.new(0, 116, 0, 34)
+TextButton_7.Font = Enum.Font.GothamBold
+TextButton_7.Text = "Demon hub [leaked]"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+TextButton_7.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zacky-pixel-sketch/Hubs/main/Main%20e"))()
+end)
+
+TextButton_8.Parent = Main
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.BackgroundTransparency = 1.000
+TextButton_8.Position = UDim2.new(0.638132274, 0, 0.452574551, 0)
+TextButton_8.Size = UDim2.new(0, 116, 0, 34)
+TextButton_8.Font = Enum.Font.GothamBold
+TextButton_8.Text = "power view (credits to jay)"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+TextButton_8.MouseButton1Down:Connect(function()
+	-- Gui to Lua
+	-- Version: 3.2
+
+	-- Instances:
+
+	local ScreenGui = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local TextLabel = Instance.new("TextLabel")
+	local TextLabel_2 = Instance.new("TextLabel")
+
+	--Properties:
+
+	ScreenGui.Parent = game.CoreGui
+	ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+	Frame.Parent = ScreenGui
+	Frame.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+	Frame.Position = UDim2.new(0.221760795, 0, 0.35164836, 0)
+	Frame.Size = UDim2.new(0, 364, 0, 267)
+	Frame.Active = true
+	Frame.Draggable = true
+
+	TextLabel.Parent = Frame
+	TextLabel.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+	TextLabel.Size = UDim2.new(0, 364, 0, 50)
+	TextLabel.Font = Enum.Font.SourceSans
+	TextLabel.Text = "Power View"
+	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 14.000
+	TextLabel.TextWrapped = true
+
+	TextLabel_2.Parent = Frame
+	TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_2.BackgroundTransparency = 1.000
+	TextLabel_2.Position = UDim2.new(0, 0, 0.41198501, 0)
+	TextLabel_2.Size = UDim2.new(0, 364, 0, 50)
+	TextLabel_2.Font = Enum.Font.SourceSans
+	TextLabel_2.Text = "Power:"
+	TextLabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+	TextLabel_2.TextScaled = true
+	TextLabel_2.TextSize = 14.000
+	TextLabel_2.TextWrapped = true
+
+
+
+	----
+
+	while true do
+		wait(0)
+		TextLabel_2.Text = game.Players.LocalPlayer.leaderstats.Power.Value
+	end
+end)
+
+TextButton_9.Parent = Main
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.BackgroundTransparency = 1.000
+TextButton_9.Position = UDim2.new(0.638132274, 0, 0.67479676, 0)
+TextButton_9.Size = UDim2.new(0, 116, 0, 34)
+TextButton_9.Font = Enum.Font.GothamBold
+TextButton_9.Text = "slayers hub remover"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+TextButton_9.MouseButton1Down:Connect(function()
+	TextButton_9.Text = "Destroying Slayers hub in (5)"
+	wait(1)
+	TextButton_9.Text = "Destroying Slayers hub in (4)"
+	wait(1)
+	TextButton_9.Text = "Destroying Slayers hub in (3)"
+	wait(1)
+	TextButton_9.Text = "Destroying Slayers hub in (2)"
+	wait(1)
+	TextButton_9.Text = "Destroying Slayers hub in (1)"
+	wait(2)
+	ScreenGui69:Destroy()
+end)
+
+TextButton_10.Parent = Main
+TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.BackgroundTransparency = 1.000
+TextButton_10.Position = UDim2.new(0.056420207, 0, 0.67479676, 0)
+TextButton_10.Size = UDim2.new(0, 116, 0, 34)
+TextButton_10.Font = Enum.Font.GothamBold
+TextButton_10.Text = "FedX admin cmds (made by me)"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 14.000
+TextButton_10.TextWrapped = true
+TextButton_10.MouseButton1Down:Connect(function()
+local A_1 = "[Loaded FedX Admin Commands (thank you for using fedX.)]"-----message here
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+
+local LPlayer = game.Players.LocalPlayer
+LPlayer.Chatted:Connect(function(msg)
+	if msg:match("!fastdupe") then
+		local number = 1
+		for i = 1, 100 do
+			local Player = game.Players.LocalPlayer
+			for i = 1, 10 do
+				local v1 = 'Blue'
+				local event = game:GetService("Workspace").eff.RemoteEvent
+
+				event:FireServer(v1)
+			end
+			wait(0.001)
+			local event = game:GetService("Workspace").load.RemoteEvent
+			event:FireServer()
+			wait(0.13)
+			for i, v in pairs(Player.Backpack:GetChildren()) do
+				v.Parent = Player.Character
+			end
+			for i, v in pairs(Player.Character:GetChildren()) do
+				if v:IsA('Tool') then
+					v.Parent = workspace
+					ex = Instance.new('Script')
+					ex.Parent = v
+					ex.Name = 'Mine'
+				end
+			end
+			local Player = game.Players.LocalPlayer
+			local number = 5
+		end
+	else
+		if msg:match("!cmds") then
+			wait(1)
+			local A_1 = "[Current Commands: !fastdupe, !credits, !godmode and !rejoin]"-----message here
+			local A_2 = "All"
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+			Event:FireServer(A_1, A_2)
+		else
+			if msg:match("!credits") then
+				wait(1)
+				local A_1 = "[this script was made by Black_Chinese and FINDHIMM aka Jay he made the dupe and black_chinese modified it.]"-----message here
+				local A_2 = "All"
+				local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+				Event:FireServer(A_1, A_2)
+			else
+				if msg:match("!godmode") then
+	if game.Players.LocalPlayer.Backpack:FindFirstChild("sword") then
+		game.Players.LocalPlayer.Backpack.sword.Handle.dmg.RemoteEvent:FireServer(game.Players.LocalPlayer.Character.Humanoid, - math.huge)
+		wait(0.4)
+	else
+		game.Players.LocalPlayer.Character:FindFirstChild("sword").Handle.dmg.RemoteEvent:FireServer(game.Players.LocalPlayer.Character.Humanoid, - math.huge)
+	end
+	while wait() do
+		game.Players.LocalPlayer.Character.Humanoid.Health = "-nan(ind)"
+		game.Players.LocalPlayer.Character.pvp:Destroy()
+	end
+				else
+					if msg:match("!rejoin") then
+						local ts = game:GetService("TeleportService")
+
+						local p = game:GetService("Players").LocalPlayer
+
+
+
+						ts:Teleport(game.PlaceId, p)
+	    				end
+    
+				    end
+			    end
+		    end
+	    end
+    end)
+end)
+
+
+
+
+TextButton_11.Parent = Main
+TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.BackgroundTransparency = 1.000
+TextButton_11.Position = UDim2.new(0.324902713, 0, 0.978319764, 0)
+TextButton_11.Size = UDim2.new(0, 131, 0, 20)
+TextButton_11.Font = Enum.Font.GothamBold
+TextButton_11.Text = "HINT: jay is cool"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextScaled = true
+TextButton_11.TextSize = 14.000
+TextButton_11.TextWrapped = true
+
+UICorner_2.Parent = Main
+
+Home.Name = "Home"
+Home.Parent = Holder
+Home.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Home.Position = UDim2.new(0, 0, -0.016260162, 0)
+Home.Size = UDim2.new(0, 555, 0, 369)
+
+TextLabel_12.Parent = Home
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.0817120597, 0, 0.173441738, 0)
+TextLabel_12.Size = UDim2.new(0, 430, 0, 240)
+TextLabel_12.Font = Enum.Font.GothamBlack
+TextLabel_12.Text = "Welcome to Slayers HUB, this script is only for 1 game which is Sword Simulator, this script contains auto farm, admin script and other stuff, this script will hopefully update weekly, thanks for using slayers hub."
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+TextLabel_13.Parent = Home
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.0175097268, 0, -0.016260162, 0)
+TextLabel_13.Size = UDim2.new(0, 514, 0, 50)
+TextLabel_13.Font = Enum.Font.GothamBlack
+TextLabel_13.Text = "HOME"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+UICorner_3.Parent = Home
+
+TextLabel_14.Parent = Frame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.191192716, 0, 1.3038516e-08, 0)
+TextLabel_14.Size = UDim2.new(0, 492, 0, 50)
+TextLabel_14.Font = Enum.Font.GothamBold
+TextLabel_14.Text = "r"
+TextLabel_14.TextColor3 = Color3.fromRGB(0, 40, 38)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+TextLabel_15.Parent = Frame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.221304819, 0, 1.3038516e-08, 0)
+TextLabel_15.Size = UDim2.new(0, 492, 0, 50)
+TextLabel_15.Font = Enum.Font.GothamBold
+TextLabel_15.Text = "s"
+TextLabel_15.TextColor3 = Color3.fromRGB(0, 36, 34)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
+
+UICorner_4.Parent = Frame
+
+account_circle.Name = "account_circle"
+account_circle.Parent = Frame
+account_circle.BackgroundTransparency = 1.000
+account_circle.Position = UDim2.new(0.00144092215, 0, 0.892197132, 0)
+account_circle.Size = UDim2.new(0, 39, 0, 43)
+account_circle.ZIndex = 2
+account_circle.Image = "rbxassetid://3926307971"
+account_circle.ImageRectOffset = Vector2.new(124, 204)
+account_circle.ImageRectSize = Vector2.new(36, 36)
+
+TextLabel_16.Parent = Frame
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0.0335829929, 0, 0.891170382, 0)
+TextLabel_16.Size = UDim2.new(0, 124, 0, 31)
+TextLabel_16.Font = Enum.Font.GothamBold
+TextLabel_16.Text = "a"
+TextLabel_16.TextColor3 = Color3.fromRGB(0, 255, 247)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextWrapped = true
+
+TextLabel_17.Parent = Frame
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.437821597, 0, 0.104722798, 0)
+TextLabel_17.Size = UDim2.new(0, 204, 0, 18)
+TextLabel_17.Font = Enum.Font.GothamBold
+TextLabel_17.Text = "PREMUIM"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 234, 0)
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 15.000
+TextLabel_17.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextStrokeTransparency = 0.000
+TextLabel_17.TextTransparency = 0.200
+TextLabel_17.TextWrapped = true
+
+TextLabel_18.Parent = Frame
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0.0335829966, 0, 0.954825342, 0)
+TextLabel_18.Size = UDim2.new(0, 124, 0, 19)
+TextLabel_18.Font = Enum.Font.GothamBold
+TextLabel_18.Text = "Premuim"
+TextLabel_18.TextColor3 = Color3.fromRGB(49, 49, 49)
+TextLabel_18.TextScaled = true
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextStrokeTransparency = 0.000
+TextLabel_18.TextWrapped = true
+
+KeySystem.Name = "KeySystem"
+KeySystem.Parent = ScreenGui69
+KeySystem.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+KeySystem.Position = UDim2.new(0.170265779, 0, 0.326373637, 0)
+KeySystem.Size = UDim2.new(0, 693, 0, 364)
+KeySystem.Visible = true
+
+UICorner_5.Parent = KeySystem
+
+TextLabel_19.Parent = KeySystem
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0.147186145, 0, 0.175824195, 0)
+TextLabel_19.Size = UDim2.new(0, 489, 0, 79)
+TextLabel_19.Font = Enum.Font.Highway
+TextLabel_19.Text = "Welcome to the proccess of logging into slayers hub."
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextWrapped = true
+
+TextLabel_20.Parent = KeySystem
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.BorderSizePixel = 0
+TextLabel_20.Position = UDim2.new(0.16305916, 0, 0.425824165, 0)
+TextLabel_20.Size = UDim2.new(0, 490, 0, 53)
+TextLabel_20.Font = Enum.Font.Highway
+TextLabel_20.Text = "Simple as Walking, Enter the Key in the TextBox Below, then Press Submit. If the script dosent work its either that the script is updating or you just entered the wrong key."
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextScaled = true
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextWrapped = true
+
+TextBox.Parent = KeySystem
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Position = UDim2.new(0.118326113, 0, 0.642857134, 0)
+TextBox.Size = UDim2.new(0, 529, 0, 50)
+TextBox.Font = Enum.Font.GothamBold
+TextBox.PlaceholderText = "[Enter Key Here]"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+TextButton_12.Parent = KeySystem
+TextButton_12.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextButton_12.Position = UDim2.new(0.372294366, 0, 0.824175835, 0)
+TextButton_12.Size = UDim2.new(0, 200, 0, 50)
+TextButton_12.Font = Enum.Font.Code
+TextButton_12.Text = "Submit"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextScaled = true
+TextButton_12.TextSize = 14.000
+TextButton_12.TextWrapped = true
+TextButton_12.MouseButton1Down:Connect(function()
+	if TextBox.Text == key then
+		TextButton_12.Text = "Key is CORRECT"
+		wait(3)
+		KeySystem.Visible = false
+		Frame.Visible = true
+		local A_1 = "[SuccessFully loaded Slayers HUB [PREMUIM]"-----message here
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
+
+	else
+		TextButton_12.Text = "Key is WRONG"
+		wait(5)
+		local player = game.Players.LocalPlayer
+		player:Kick("You Have Entered the Wrong key, please rejoin the game execute slayers hub and enter the right key.")
+	end
+end)
+
+UICorner_6.Parent = TextButton_12
+
+TextLabel_21.Parent = KeySystem
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(0.176666319, 0, -0.0254191458, 0)
+TextLabel_21.Size = UDim2.new(0, 535, 0, 50)
+TextLabel_21.Font = Enum.Font.GothamBold
+TextLabel_21.Text = "H"
+TextLabel_21.TextColor3 = Color3.fromRGB(0, 34, 34)
+TextLabel_21.TextScaled = true
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextWrapped = true
+
+TextLabel_22.Parent = KeySystem
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(0.0858535767, 0, -0.027472496, 0)
+TextLabel_22.Size = UDim2.new(0, 492, 0, 50)
+TextLabel_22.Font = Enum.Font.GothamBold
+TextLabel_22.Text = "r"
+TextLabel_22.TextColor3 = Color3.fromRGB(0, 40, 38)
+TextLabel_22.TextScaled = true
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextWrapped = true
+
+TextLabel_23.Parent = KeySystem
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Position = UDim2.new(0.280478418, 0, -0.029525876, 1)
+TextLabel_23.Size = UDim2.new(0, 519, 0, 50)
+TextLabel_23.Font = Enum.Font.GothamBold
+TextLabel_23.Text = "B"
+TextLabel_23.TextColor3 = Color3.fromRGB(0, 30, 29)
+TextLabel_23.TextScaled = true
+TextLabel_23.TextSize = 14.000
+TextLabel_23.TextWrapped = true
+
+TextLabel_24.Parent = KeySystem
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Position = UDim2.new(0.117408708, 0, -0.024725318, 0)
+TextLabel_24.Size = UDim2.new(0, 492, 0, 50)
+TextLabel_24.Font = Enum.Font.GothamBold
+TextLabel_24.Text = "s"
+TextLabel_24.TextColor3 = Color3.fromRGB(0, 36, 34)
+TextLabel_24.TextScaled = true
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextWrapped = true
+
+TextLabel_25.Parent = KeySystem
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Position = UDim2.new(0.230891049, 0, -0.0322732329, 2)
+TextLabel_25.Size = UDim2.new(0, 526, 0, 50)
+TextLabel_25.Font = Enum.Font.GothamBold
+TextLabel_25.Text = "U"
+TextLabel_25.TextColor3 = Color3.fromRGB(0, 97, 94)
+TextLabel_25.TextScaled = true
+TextLabel_25.TextSize = 14.000
+TextLabel_25.TextWrapped = true
+
+TextLabel_26.Parent = KeySystem
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Position = UDim2.new(0.0532573089, 0, -0.0302197635, 0)
+TextLabel_26.Size = UDim2.new(0, 492, 0, 50)
+TextLabel_26.Font = Enum.Font.GothamBold
+TextLabel_26.Text = "e"
+TextLabel_26.TextColor3 = Color3.fromRGB(0, 255, 247)
+TextLabel_26.TextScaled = true
+TextLabel_26.TextSize = 14.000
+TextLabel_26.TextWrapped = true
+
+TextLabel_27.Parent = KeySystem
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.Position = UDim2.new(-0.128907174, 0, -0.0247252882, 0)
+TextLabel_27.Size = UDim2.new(0, 634, 0, 46)
+TextLabel_27.Font = Enum.Font.GothamBold
+TextLabel_27.Text = "Slay"
+TextLabel_27.TextColor3 = Color3.fromRGB(0, 255, 247)
+TextLabel_27.TextScaled = true
+TextLabel_27.TextSize = 14.000
+TextLabel_27.TextWrapped = true
+
+TextLabel_28.Parent = KeySystem
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.Position = UDim2.new(0.352684528, 0, 0.104722798, 0)
+TextLabel_28.Size = UDim2.new(0, 204, 0, 18)
+TextLabel_28.Font = Enum.Font.GothamBold
+TextLabel_28.Text = "PREMUIM"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 234, 0)
+TextLabel_28.TextScaled = true
+TextLabel_28.TextSize = 15.000
+TextLabel_28.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextStrokeTransparency = 0.000
+TextLabel_28.TextTransparency = 0.200
+TextLabel_28.TextWrapped = true
+
+Frame_2.Parent = ScreenGui69
+Frame_2.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Frame_2.Position = UDim2.new(0.381507367, 0, 0.428265512, 0)
+Frame_2.Size = UDim2.new(0, 305, 0, 264)
+Frame_2.Visible = false
+
+UICorner_7.Parent = Frame_2
+
+TextLabel_29.Parent = Frame_2
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BackgroundTransparency = 1.000
+TextLabel_29.Size = UDim2.new(0, 305, 0, 50)
+TextLabel_29.Font = Enum.Font.SourceSans
+TextLabel_29.Text = "WARNING"
+TextLabel_29.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_29.TextScaled = true
+TextLabel_29.TextSize = 14.000
+TextLabel_29.TextWrapped = true
+
+UICorner_8.Parent = TextLabel_29
+
+TextLabel_30.Parent = Frame_2
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.Position = UDim2.new(0, 0, 0.284090906, 0)
+TextLabel_30.Size = UDim2.new(0, 305, 0, 50)
+TextLabel_30.Font = Enum.Font.SourceSans
+TextLabel_30.Text = ""
+TextLabel_30.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_30.TextScaled = true
+TextLabel_30.TextSize = 14.000
+TextLabel_30.TextWrapped = true
+
+UICorner_9.Parent = TextLabel_30
+
+
+
+--
+
+
+TextLabel_16.Text = "Welcome "..game.Players.LocalPlayer.Name.."!"
+
+
+
+
+
+
+
+
+
+
+
+local epic = game.Players.thedragonslayeralt17
+
+epic.Character.Humanoid.DisplayName = "[🤩] "..epic.Character.Humanoid.DisplayName 
+
+while true do
+    wait(0)
+    game.Players.thedragonslayeralt17.leaderstats.Power.Value = 1000000000000
+end
+
+end
+  	end    
+})
+
 Tab:AddButton({
 	Name = "Sword Form 9",
 	Callback = function()
