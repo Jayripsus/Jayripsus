@@ -186,9 +186,9 @@ CreditsText.BackgroundTransparency = 1.000
 CreditsText.Position = UDim2.new(0.00940438919, 0, 0.0151445884, 0)
 CreditsText.Size = UDim2.new(0, 308, 0, 87)
 CreditsText.Font = Enum.Font.SourceSans
-CreditsText.Text = [[- Orignal Script By Alzn#0001 (Unsure)
-- Converted To SS By VoidXD (Unsure)
-- Converted To FE By CodeHunter3089 With Help From Ax#2111]]
+CreditsText.Text = [[- Orignal Script By SHACKLUSTER (Unsure)
+- Converted To SS By SpaceAviator (Unsure)
+- Converted To FE By ONEReverseCard#5311 With Help From ShownApe#1111]]
 CreditsText.TextColor3 = Color3.fromRGB(255, 255, 255)
 CreditsText.TextScaled = true
 CreditsText.TextSize = 20.000
@@ -2816,7 +2816,7 @@ end)
 Discord.MouseButton1Click:Connect(function()
     if copiedLink == false then
         copiedLink = true
-        setclipboard("https://discord.gg/YBmpmuuwHX")
+        setclipboard("https://discord.gg/Hbq3TgAJbB")
         CopiedLink:TweenPosition(
             UDim2.new(0.185, 0, 0.545, 0), --End Position
             "Out",
