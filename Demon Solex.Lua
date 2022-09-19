@@ -3518,10 +3518,10 @@ end)
 
 -- Other Hub
 local Tab = Window:NewTab("Premium Hub")
-local TabSection = Tab:NewSection("Sword Form's Beta.")
+local TabSection = Tab:NewSection("Beta Tester.")
 
 -- Evil Script.
-TabSection:NewButton("Solex Premium Hub 0.2", ":)", function()
+TabSection:NewButton("Solex Premium Hub 0.4", ":)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Demon1131/Hubs/main/Zsycho%20Premium%20Hub",true))()
 end)
 -- Paid Codeing V2.0
