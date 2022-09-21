@@ -1,4 +1,4 @@
--- UTG Version 3 made by Blukez
+-- UTG Version 4 made by Alzn_Scripting
 
 local UltimateTrollingGuiV3 = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
@@ -178,7 +178,7 @@ Title.BackgroundTransparency = 1.000
 Title.Position = UDim2.new(0.0600659028, 0, -0.00186577276, 0)
 Title.Size = UDim2.new(0, 395, 0, 51)
 Title.Font = Enum.Font.SourceSans
-Title.Text = "ULTIMATE TROLLING GUI V3"
+Title.Text = "ULTIMATE TROLLING GUI V4"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 14.000
@@ -191,7 +191,7 @@ SubTitle.BackgroundTransparency = 1.000
 SubTitle.Position = UDim2.new(0.168713331, 0, 0.0599319786, 0)
 SubTitle.Size = UDim2.new(0, 297, 0, 35)
 SubTitle.Font = Enum.Font.SourceSans
-SubTitle.Text = "FE UTG is back! With V3! Thanks for using!"
+SubTitle.Text = "FE UTG is back! With V4! Thanks for using!"
 SubTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 SubTitle.TextScaled = true
 SubTitle.TextSize = 14.000
@@ -1143,7 +1143,7 @@ Credits.BorderSizePixel = 0
 Credits.Position = UDim2.new(0.0223718882, 0, 0.834973812, 0)
 Credits.Size = UDim2.new(0, 428, 0, 36)
 Credits.Font = Enum.Font.SourceSans
-Credits.Text = "Created by Blukez."
+Credits.Text = "Created by Ava_Scripting."
 Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
 Credits.TextSize = 23.000
 Credits.TextWrapped = true
