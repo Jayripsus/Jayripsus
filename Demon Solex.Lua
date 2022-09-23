@@ -4,7 +4,7 @@ local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.S
 Event:FireServer(A_1, A_2)
 -- Main Script Code
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Demon Hub Blood (5/12/2020)", "BloodTheme")
+local Window = Library.CreateLib("Demon Hub Blood (10/12/2021)", "BloodTheme")
 
 --Main
 local Main = Window:NewTab("Main")
