@@ -30,7 +30,7 @@ end
 end
 end)
 
-Section:NewButton("Old Sword Simulator Hub", "My Old GUI form Back in 2020", function()
+Section:NewButton("Old Sword Simulator Hub", "My Old GUI form Back in 2021", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AlznX/Sword-Simulator-2take1.tk/main/Sword%20Simulator%20Hub",true))()
 end)
 
@@ -3518,10 +3518,10 @@ end)
 
 -- Other Hub
 local Tab = Window:NewTab("Premium Hub")
-local TabSection = Tab:NewSection("Beta Tester.")
+local TabSection = Tab:NewSection("Discord: https://discord.gg/kvWUKy2N")
 
 -- Evil Script.
-TabSection:NewButton("Solex Premium Hub 0.4", ":)", function()
+TabSection:NewButton("Solex Premium Hub 0.4", "thanks for using", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Demon1131/Hubs/main/Zsycho%20Premium%20Hub",true))()
 end)
 -- Paid Codeing V2.0
