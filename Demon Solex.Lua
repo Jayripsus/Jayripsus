@@ -30,7 +30,7 @@ end
 end
 end)
 
-Section:NewButton("Old Sword Simulator Hub", "My Old GUI form Back in 2021", function()
+Section:NewButton("Sword Simulator Hub 3.0", "My Old GUI form Back in 2021", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AlznX/Sword-Simulator-2take1.tk/main/Sword%20Simulator%20Hub",true))()
 end)
 
@@ -3524,43 +3524,10 @@ local TabSection = Tab:NewSection("Discord: https://discord.gg/kvWUKy2N")
 TabSection:NewButton("Solex Premium Hub 0.4", "thanks for using", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Demon1131/Hubs/main/Zsycho%20Premium%20Hub",true))()
 end)
--- Paid Codeing V2.0
-OtherSection:NewButton("Dark Dex", "Dex explorer", function()
-    local Dex = rawget(game:GetObjects("rbxassetid://3567096419"), 0X1)
-if type(syn) == "table" and type(syn.protect_gui) == "function" then
-    xpcall(syn.protect_gui, warn, Dex)
-end
-Dex.Name, Dex.Parent = "SynapseDex", game:GetService("CoreGui")
-function Load(x)
-    if x:IsA("Script") then
-        xpcall(coroutine.wrap(function()
-            local Fenv, FenvMt, RealFenv, Func = {}, {}, {
-                script = x
-            }, loadstring(x.Source, "=" .. x:GetFullName())
-            FenvMt.__index = function(a, b)
-                if RealFenv[b] == nil then
-                    return getfenv()[b]
-                else
-                    return RealFenv[b]
-                end
-            end
-            FenvMt.__newindex = function(a, b, c)
-                if RealFenv[b] == nil then
-                    getfenv()[b] = c
-                else
-                    RealFenv[b] = c
-                end
-            end
-            setmetatable(Fenv, FenvMt)
-            setfenv(Func, Fenv)
-            return Func()
-        end), warn)
-    end
-    for _, v in pairs(x:GetChildren()) do
-        xpcall(Load, warn, v)
-    end
-end
-xpcall(Load, warn, Dex)
+-- Dex Dark Code
+
+OtherSection:NewButton("Dex Dark", "Dex Dark", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Dex%20Dark.Lua",true))()
 end)
 
 OtherSection:NewButton("Sword Shoulder", "Need's 19 Or 10 Swords For it to work", function()
