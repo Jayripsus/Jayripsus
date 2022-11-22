@@ -17,7 +17,7 @@ Tab:AddParagraph("Notification","Latest Version")
 
 OrionLib:MakeNotification({
 	Name = "Notification",
-	Content = "Hello, Welcome to Solex thank's for using are script!",
+	Content = "Hello, Welcome to Solex Thank's for using",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
@@ -924,6 +924,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/m
   	end    
 })
 
+-- *Leaked*
+JTab:AddButton({
+	Name = "Sniper Hub (Key 324jgjdjgjdh)",
+	Callback = function()
+     -- Love leaked
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlznX/Sword-Simulator-2take1.tk/main/Sniper%20Hub",true))()
+  	end    
+})
+
 
 Tab:AddButton({
 	Name = "Sword Form 9",
@@ -1035,12 +1044,14 @@ end
   	end    
 })
 -- Power Stats
-local xTab = Window:MakeTab({
-    Name = "???",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = true
+local KTab = Window:MakeTab({
+	Name = "???",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
 })
-statsParagraph = xTab:AddParagraph("Your Stats", "Loading..")
+
+-- Power Stats
+statsParagraph = KTab:AddParagraph("Your Stats", "Loading..")
 
 function getAllSwords()
     local allTools = {}
