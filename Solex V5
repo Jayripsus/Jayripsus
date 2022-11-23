@@ -679,13 +679,13 @@ SwordsTab:AddTextbox({
     end      
 })
 SwordsTab:AddButton({
-    Name = "Generate Swords - will make better;",
+    Name = "Generate Swords - Fixed",
     Callback = function()
         for i=1,swordGenAmt do 
             equipAll()
             
             workspace.load.RemoteEvent:FireServer()
-            wait(0.25)
+            wait(0.21)
         end
         equipAll()
         OrionLib:MakeNotification({
@@ -1072,3 +1072,4 @@ while wait() do
   local updateStr = "Sword Count: "..#getAllSwords().."\nPower: "..game.Players.LocalPlayer.leaderstats.Power.Value
   statsParagraph:Set(updateStr)
 end
+OrionLib:Init()
