@@ -23,6 +23,15 @@ OrionLib:MakeNotification({
 })
 
 Tab:AddButton({
+	Name = "Discord link",
+	Callback = function()
+      			setclipboard("https://discord.gg/XXGqcmKE7B")
+	toclipboard("https://discord.gg/XXGqcmKE7B")
+	wait(3)
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Sword Form 1",
 	Callback = function()
       		local player = game.Players.LocalPlayer
