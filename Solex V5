@@ -23,15 +23,6 @@ OrionLib:MakeNotification({
 })
 
 Tab:AddButton({
-	Name = "Discord link",
-	Callback = function()
-      			setclipboard("https://discord.gg/XXGqcmKE7B")
-	toclipboard("https://discord.gg/XXGqcmKE7B")
-	wait(3)
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Sword Form 1",
 	Callback = function()
       		local player = game.Players.LocalPlayer
@@ -1057,6 +1048,33 @@ local KTab = Window:MakeTab({
 	Name = "???",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+})
+
+local uiTab = Window:MakeTab({
+	Name = "Discord",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+uiTab:AddButton({
+	Name = "Discord Link",
+	Callback = function()
+      		request({
+   Url = "http://127.0.0.1:6463/rpc?v=1",
+   Method = "POST",
+   Headers = {
+       ["Content-Type"] = "application/json",
+       ["Origin"] = "https://discord.com"
+   },
+   Body = game:GetService("HttpService"):JSONEncode({
+       cmd = "INVITE_BROWSER",
+       args = {
+           code = "XXGqcmKE7B"
+       },
+       nonce = game:GetService("HttpService"):GenerateGUID(false)
+   }),
+})
+ end
 })
 
 -- Power Stats
