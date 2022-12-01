@@ -168,6 +168,11 @@ if toggle == true then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/UTG.lua",true))()
 			else
 			
+                   if msg:match(";Neptune") then
+				-- Neptune Sword Script
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Neptune.lua",true))()
+			else
+
 			if msg:match(";re") then
 				-- Reset me
             game.Players.LocalPlayer.Character.Humanoid.Health = 0
@@ -308,6 +313,7 @@ end)
 		    end
 	    end
 	end
+end
 end
 end
 end
