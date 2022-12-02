@@ -30,7 +30,7 @@ end
 end
 end)
 
-Section:NewButton("Sword Simulator Hub 3.0", "My Old GUI form Back in 2021", function()
+Section:NewButton("Sword Simulator Hub", "My Old GUI form Back in 2021", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AlznX/Sword-Simulator-2take1.tk/main/Sword%20Simulator%20Hub",true))()
 end)
 
@@ -3174,7 +3174,7 @@ maingui.Visible = true
 credits.Visible = false
 end)
 -- Dupe --
-Section:NewButton("Sword Effects Dupe", "Super Op Dupe by TruIy#0007 Edited By Me", function()
+Section:NewButton("Sword Effects Dupe", "Added", function()
     local SumPValues = 0
 local amountPlayerCount = 0
 for i = 1, 40
@@ -3195,11 +3195,11 @@ for i = 1, 40
 	
 		event:FireServer(v1)
 	end
-	wait(0.1)
+	wait(0.0001)
 	--create sword
 	local event = game:GetService("Workspace").load.RemoteEvent
 	event:FireServer()
-	wait(0.36)
+	wait(0.18)
 	--put tools in hand
 	for i, v in pairs(Player.Backpack:GetChildren()) do
 		v.Parent = Player.Character
@@ -3257,11 +3257,11 @@ for i = 1, 20
 		local event = game:GetService("Workspace").eff.RemoteEvent
 		event:FireServer(v1)
 	end
-	wait(0.1)
+	wait(0.0001)
 	--create sword
 	local event = game:GetService("Workspace").load.RemoteEvent
 	event:FireServer()
-	wait(0.36)
+	wait(0.18)
 	--put tools in hand
 	for i, v in pairs(Player.Backpack:GetChildren()) do
 		v.Parent = Player.Character
@@ -3312,11 +3312,11 @@ for i = 1, 20
 		local event = game:GetService("Workspace").eff.RemoteEvent
 		event:FireServer(v1)
 	end
-	wait(0.1)
+	wait(0.0001)
 	--create sword
 	local event = game:GetService("Workspace").load.RemoteEvent
 	event:FireServer()
-	wait(0.36)
+	wait(0.18)
 	--put tools in hand
 	for i, v in pairs(Player.Backpack:GetChildren()) do
 		v.Parent = Player.Character
@@ -3367,11 +3367,11 @@ for i = 1, 20
 		local event = game:GetService("Workspace").eff.RemoteEvent
 		event:FireServer(v1)
 	end
-	wait(0.1)
+	wait(0.0001)
 	--create sword
 	local event = game:GetService("Workspace").load.RemoteEvent
 	event:FireServer()
-	wait(0.36)
+	wait(0.18)
 	--put tools in hand
 	for i, v in pairs(Player.Backpack:GetChildren()) do
 		v.Parent = Player.Character
@@ -3422,11 +3422,11 @@ for i = 1, 20
 		local event = game:GetService("Workspace").eff.RemoteEvent
 		event:FireServer(v1)
 	end
-	wait(0.1)
+	wait(0.0001)
 	--create sword
 	local event = game:GetService("Workspace").load.RemoteEvent
 	event:FireServer()
-	wait(0.36)
+	wait(.18)
 	--put tools in hand
 	for i, v in pairs(Player.Backpack:GetChildren()) do
 		v.Parent = Player.Character
@@ -3477,11 +3477,11 @@ for i = 1, 20
 		local event = game:GetService("Workspace").eff.RemoteEvent
 		event:FireServer(v1)
 	end
-	wait(0.1)
+	wait(0.0001)
 	--create sword
 	local event = game:GetService("Workspace").load.RemoteEvent
 	event:FireServer()
-	wait(0.36)
+	wait(0.18)
 	--put tools in hand
 	for i, v in pairs(Player.Backpack:GetChildren()) do
 		v.Parent = Player.Character
@@ -3517,8 +3517,8 @@ end
 end)
 
 -- Other Hub
-local Tab = Window:NewTab("Premium Hub")
-local TabSection = Tab:NewSection("Discord: https://discord.gg/kvWUKy2N")
+local Tab = Window:NewTab("Solex Premium")
+local TabSection = Tab:NewSection("Welcome To Solex")
 
 -- Evil Script.
 TabSection:NewButton("Solex Premium Hub 0.4", "thanks for using", function()
