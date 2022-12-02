@@ -17,7 +17,7 @@ Tab:AddParagraph("Notification","Latest Version")
 
 OrionLib:MakeNotification({
 	Name = "Notification",
-	Content = "Hello, Welcome to Solex Thank's for using",
+	Content = "Hello, Welcome to Solex Updated 2022",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
@@ -477,6 +477,13 @@ SexTab:AddButton({
 	Name = "Animation Changer",
 	Callback = function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Animation%20Changer"), true))()
+  	end    
+})
+
+SexTab:AddButton({
+	Name = "Music Player",
+	Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Music%20Player.lua'))()
   	end    
 })
 
