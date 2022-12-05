@@ -17,7 +17,7 @@ Tab:AddParagraph("Notification","Latest Version")
 
 OrionLib:MakeNotification({
 	Name = "Notification",
-	Content = "Hello, Welcome to Solex Updated 2022",
+	Content = "Hello, Welcome to Solex Thank's for using",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
@@ -481,13 +481,6 @@ SexTab:AddButton({
 })
 
 SexTab:AddButton({
-	Name = "Music Player",
-	Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Music%20Player.lua'))()
-  	end    
-})
-
-SexTab:AddButton({
 	Name = "Sword Guard",
 	Callback = function()
     local sword = game:GetService("Players").LocalPlayer.Backpack.sword
@@ -937,6 +930,13 @@ JTab:AddButton({
 	Callback = function()
      -- Love leaked
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AlznX/Sword-Simulator-2take1.tk/main/Sniper%20Hub",true))()
+  	end    
+})
+
+JTab:AddButton({
+	Name = "Bring All (Require Swords)",
+	Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Bring%20All.lua",true))()
   	end    
 })
 
