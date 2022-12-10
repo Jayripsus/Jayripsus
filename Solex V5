@@ -1084,6 +1084,84 @@ uiTab:AddButton({
  end
 })
 
+Mlocal MTab = Window:MakeTab({
+	Name = "Music Section",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+MTab:AddButton({
+	Name = "NEW WORLD",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://5410082346"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "TOMB",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://6782202354"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "Take me",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://7029070008"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "About You",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://7023445033"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "FADING",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://1837565236"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "Rootkit",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://5410081542"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
 -- Power Stats
 statsParagraph = KTab:AddParagraph("Your Stats", "Loading..")
 
