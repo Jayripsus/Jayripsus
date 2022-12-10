@@ -1091,7 +1091,18 @@ local MTab = Window:MakeTab({
 })
 
 MTab:AddButton({
-	Name = "NEW WORLD",
+	Name = "Stop Music",
+	Callback = function()
+      		for i,v in pairs(game.Workspace:GetChildren()) do
+if v.ClassName == 'Sound' then
+v:Destroy()
+end
+end
+  	end    
+})
+
+MTab:AddButton({
+	Name = "New World",
 	Callback = function()
       		local s = Instance.new("Sound", workspace)
  s.Volume  = 1
@@ -1139,7 +1150,7 @@ wait(3)
 })
 
 MTab:AddButton({
-	Name = "FADING",
+	Name = "Fading",
 	Callback = function()
       		local s = Instance.new("Sound", workspace)
  s.Volume  = 1
@@ -1156,6 +1167,115 @@ MTab:AddButton({
       		local s = Instance.new("Sound", workspace)
  s.Volume  = 1
  s.SoundId = "rbxassetid://5410081542"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "Say So",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://1840036018"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "Meme",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://4239002503"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+
+MTab:AddButton({
+	Name = "The Future",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://1837358800"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "Feel Your Heart",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://5410082171"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "Forward",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://5410081471"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "Blood Pop",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://6783714255"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "No Sleep",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "That's A Thot",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://6772846771"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "Comeing Soon",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://"
  s.Looped  = false
  s:Play()
 wait(3)
