@@ -1251,7 +1251,7 @@ MTab:AddButton({
 	Callback = function()
       		local s = Instance.new("Sound", workspace)
  s.Volume  = 1
- s.SoundId = "rbxassetid://"
+ s.SoundId = "rbxassetid://7029011778"
  s.Looped  = false
  s:Play()
 wait(3)
