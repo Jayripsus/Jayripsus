@@ -1270,6 +1270,18 @@ wait(3)
   	end    
 })
 
+Tab:AddButton({
+	Name = "The World Ends,
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://6973084731"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
 MTab:AddButton({
 	Name = "Comeing Soon",
 	Callback = function()
