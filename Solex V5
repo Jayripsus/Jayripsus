@@ -1282,6 +1282,19 @@ wait(3)
   	end    
 })
 
+MTab:AddButton({
+	Name = "Pixel Terror",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://5410080475"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+
 -- Power Stats
 statsParagraph = KTab:AddParagraph("Your Stats", "Loading..")
 
