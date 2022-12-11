@@ -1094,7 +1094,7 @@ MTab:AddButton({
 	Name = "(Delete Sword Simulator Music)",
 	Callback = function()
       		for i,v in pairs(game.Workspace:GetChildren()) do
-if v.ClassName == 'Script' then
+if v.ClassName == 'Sound' then
 v:Destroy()
 end
 end
@@ -1105,7 +1105,7 @@ MTab:AddButton({
 	Name = "Stop Music",
 	Callback = function()
       		for i,v in pairs(game.Workspace:GetChildren()) do
-if v.ClassName == 'Sound' then
+if v.ClassName == 'Script' then
 v:Destroy()
 end
 end
