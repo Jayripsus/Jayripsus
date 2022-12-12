@@ -1329,6 +1329,78 @@ wait(3)
   	end    
 })
 
+MTab:AddButton({
+	Name = "Unknown Song",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://6868493025"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "Sad Nigga Hours",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://6806140478"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "Colors",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://5410086062"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "You Used To",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://7023720291"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "GEN",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://6788646778"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "???",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://1839253629"
+ s.Looped  = true
+ s:Play()
+wait(3)
+  	end    
+})
+
 -- Power Stats
 statsParagraph = KTab:AddParagraph("Your Stats", "Loading..")
 
