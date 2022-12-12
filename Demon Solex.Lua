@@ -1,10 +1,10 @@
-local A_1 = game.Players.LocalPlayer.name.." [Loaded Sword Simulator Hub V4 Demon Blood Breaker] "-----message here
+local A_1 = game.Players.LocalPlayer.name.." [Loaded Sword Simulator Demon Hub Paid Version] "-----message here
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
 -- Main Script Code
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Demon Hub Blood (10/12/2021)", "BloodTheme")
+local Window = Library.CreateLib("Demon Hub Blood Paid (10/12/2021)", "BloodTheme")
 
 --Main
 local Main = Window:NewTab("Main")
@@ -3191,7 +3191,3 @@ k = LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
 k:Play()
 k:AdjustSpeed(1)
 end)
-
-game.Players.Diglet2011:Kick("You're Blacklisted in Solex if this was a mistake please dm any Administrators Or the Owner of this Script.")
-
-local Players = game:GetService("Players")
