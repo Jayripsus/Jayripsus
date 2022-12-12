@@ -13,11 +13,11 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Notification","Latest Version")
+Tab:AddParagraph("Notification","Latest Version, Added music Section Remove discord linked from Misc Also upgraded the duplication system Added loop kill.")
 
 OrionLib:MakeNotification({
 	Name = "Notification",
-	Content = "Hello, Welcome to Solex Thank's for using",
+	Content = "Hello, Welcome to Solex We appreciate you Solex Community Member",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
@@ -620,7 +620,7 @@ end)
 			--
 			game.StarterGui:SetCore("SendNotification",  {
 				Title = "Thanks for Using!";
-				Text = "AntiFling On, Kid Tried to fling you but i flinged hes mother instead, Credits: Ava_Scripting, (Note: Kid that use Fling cmds are gay)";
+				Text = "AntiFling on, Kid Tried to fling you but i flinged hes mother instead, Credits: Ava_Scripting, (Note: Kid that use Fling cmds are gay)";
 				Icon = "";
 				Duration = 10;
 				Button1 = "Close";
@@ -632,6 +632,14 @@ end)
 			wait(1)
   	end    
 })
+
+SexTab:AddButton({
+	Name = "Loop Kill Gui",
+	Callback = function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Loopkill.lua"), true))()
+  	end    
+})
+
 -- Other Tab
 
 local JTab = Window:MakeTab({
@@ -1090,8 +1098,10 @@ local MTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+MTab:AddParagraph("Updates","This, is the music section for sword simulator You're allowed to change the music or delete the original music to the game (!!Warning!! You cannot delete the music on Weapon simulator 2 i will fix this soon.)")
+
 MTab:AddButton({
-	Name = "(Delete Sword Simulator Music)",
+	Name = "Delete Sword Simulator Music",
 	Callback = function()
       		for i,v in pairs(game.Workspace:GetChildren()) do
 if v.ClassName == 'Script' then
