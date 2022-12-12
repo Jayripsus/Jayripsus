@@ -1317,6 +1317,17 @@ wait(3)
   	end    
 })
 
+MTab:AddButton({
+	Name = "All I Want",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://7023680426"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
 
 -- Power Stats
 statsParagraph = KTab:AddParagraph("Your Stats", "Loading..")
