@@ -1,11 +1,11 @@
-local A_1 = game.Players.LocalPlayer.name.." [Alzn's Solex Premium Hub 0.4]"-----message here
+local A_1 = game.Players.LocalPlayer.name.." [Alzn's Solex Premium Hub 2.1.2b]"-----message here
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
 -----message -----
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Solex Premium Hub 0.4", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Solex Premium Hub 2.1.2b", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Misc",
@@ -13,7 +13,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Notification","Latest Version, Added music Section Remove discord linked from Misc Also upgraded the duplication system Added loop kill.")
+Tab:AddParagraph("Notification","Latest Version, Added music Section Remove discord linked from Misc Also upgraded the duplication system Added loop kill Added Exclusive Hub Updated this script to version 2.1.2b")
 
 OrionLib:MakeNotification({
 	Name = "Notification",
@@ -929,6 +929,14 @@ JTab:AddButton({
 	Callback = function()
      -- No Pussy For You 2.0
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Admin%20Script.Lua",true))()
+  	end    
+})
+
+JTab:AddButton({
+	Name = "Exclusive Hub",
+	Callback = function()
+     -- Love leaked
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Exclusive%20Hub.lua",true))()
   	end    
 })
 
