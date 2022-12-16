@@ -1408,12 +1408,60 @@ wait(3)
 })
 
 MTab:AddButton({
-	Name = "???",
+	Name = "Coral Sea",
 	Callback = function()
       		local s = Instance.new("Sound", workspace)
  s.Volume  = 1
  s.SoundId = "rbxassetid://1839253629"
  s.Looped  = true
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "Your Pain",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://7024132063"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "Sorry",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://6909980547"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "Baby",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid:9038431054"
+ s.Looped  = false
+ s:Play()
+wait(3)
+  	end    
+})
+
+MTab:AddButton({
+	Name = "King",
+	Callback = function()
+      		local s = Instance.new("Sound", workspace)
+ s.Volume  = 100
+ s.SoundId = "rbxassetid:1840030788"
+ s.Looped  = false
  s:Play()
 wait(3)
   	end    
