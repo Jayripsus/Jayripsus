@@ -933,6 +933,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/m
 })
 
 JTab:AddButton({
+	Name = "Candy Farm - Weapon Simulator 2",
+	Callback = function()
+     -- Weapon Simulator 2 Farm
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Weapon%20Simulator%202%20Farm",true))()
+  	end    
+})
+
+JTab:AddButton({
 	Name = "Exclusive Hub",
 	Callback = function()
      -- Love leaked
