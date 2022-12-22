@@ -2648,7 +2648,7 @@ loadstring(game:HttpGet("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/2d7
 end)
 
 OtherSection:NewButton("Internal UI", "Use This If Your  Exploit Crash's", function()
-local A_1 = game.Players.LocalPlayer.name.." [Loaded Synapse X Internal UI] "-----message here
+local A_1 = game.Players.LocalPlayer.name.." [Loaded Solex Internal UI] "-----message here
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
@@ -3003,11 +3003,11 @@ end
 end)
 
 -- Other Hub
-local Tab = Window:NewTab("Solex Premium 0.4")
+local Tab = Window:NewTab("Solex Premium 2.1.2b")
 local TabSection = Tab:NewSection("Welcome To Solex")
 
 -- Evil Script.
-TabSection:NewButton("Solex Premium Hub 0.4", "thanks for using", function()
+TabSection:NewButton("Solex Premium Hub 2.1.2b", "thanks for using", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Demon1131/Hubs/main/Zsycho%20Premium%20Hub",true))()
 end)
 -- Dex Dark Code
