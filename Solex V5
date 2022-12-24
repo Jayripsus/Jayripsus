@@ -13,7 +13,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Notification","Latest Version, Fix some errors with some musics. Also Added - Exclusive Hub 2022 - Update When you click sort simulator music deleted, you cannot duplicate swords, and you will not be able to get your sword back if you die. Please keep that in mind - Fixing")
+Tab:AddParagraph("Notification","Latest Version, Fix some errors with some musics. Also Added - Exclusive Hub 2022 - Update When you click Sword Simulator music deleted, you cannot duplicate swords, and you will not be able to get your sword back if you die. Please keep that in mind - Fixing")
 
 OrionLib:MakeNotification({
 	Name = "Notification",
