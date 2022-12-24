@@ -13,7 +13,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Notification","Latest Version, Added music Section Remove discord linked from Misc Also upgraded the duplication system Added loop kill Added Exclusive Hub Updated this script to version 2.1.2b")
+Tab:AddParagraph("Notification","Latest Version, Fix some errors with some musics. Also Added - Exclusive Hub 2022 - Update When you click sort simulator music deleted, you cannot duplicate swords, and you will not be able to get your sword back if you die. Please keep that in mind - Fixing")
 
 OrionLib:MakeNotification({
 	Name = "Notification",
@@ -1114,7 +1114,7 @@ local MTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-MTab:AddParagraph("Updates","This, is the music section for sword simulator You're allowed to change the music or delete the original music to the game (!!Warning!! You cannot delete the music on Weapon simulator 2 i will fix this soon.)")
+MTab:AddParagraph("Updates","This, is the music section for sword simulator You're allowed to change the music or delete the original music to the game - 2022 Update Added more music, such as Pendulum, Chasing Clouds, Crush, and more others")
 
 MTab:AddButton({
 	Name = "Delete Sword Simulator Music",
@@ -1430,7 +1430,7 @@ wait(3)
 MTab:AddButton({
 	Name = "Your Pain",
 	Callback = function()
-      		local s = Instance.new("Sound", workspace)
+local s = Instance.new("Sound", workspace)
  s.Volume  = 1
  s.SoundId = "rbxassetid://7024132063"
  s.Looped  = false
@@ -1454,27 +1454,74 @@ wait(3)
 MTab:AddButton({
 	Name = "Baby",
 	Callback = function()
-      		local s = Instance.new("Sound", workspace)
+local s = Instance.new("Sound", workspace)
  s.Volume  = 1
- s.SoundId = "rbxassetid:9038431054"
+ s.SoundId = "rbxassetid://9038431054"
  s.Looped  = false
  s:Play()
 wait(3)
-  	end    
+ end    
 })
 
 MTab:AddButton({
 	Name = "King",
 	Callback = function()
-      		local s = Instance.new("Sound", workspace)
+local s = Instance.new("Sound", workspace)
  s.Volume  = 100
- s.SoundId = "rbxassetid:1840030788"
+ s.SoundId = "rbxassetid://1840030788"
  s.Looped  = false
  s:Play()
 wait(3)
-  	end    
+end  
 })
 
+MTab:AddButton({
+	Name = "Crush",
+	Callback = function()
+local s = Instance.new("Sound", workspace)
+ s.Volume  = 100
+ s.SoundId = "rbxassetid://9045443652"
+ s.Looped  = false
+ s:Play()
+wait(3)
+end  
+})
+
+MTab:AddButton({
+	Name = "Chasing Clouds",
+	Callback = function()
+local s = Instance.new("Sound", workspace)
+ s.Volume  = 100
+ s.SoundId = "rbxassetid://5410082097"
+ s.Looped  = false
+ s:Play()
+wait(3)
+end  
+})
+
+MTab:AddButton({
+	Name = "Pendulum - looped",
+	Callback = function()
+local s = Instance.new("Sound", workspace)
+ s.Volume  = 100
+ s.SoundId = "rbxassetid://1843384804"
+ s.Looped  = true
+ s:Play()
+wait(3)
+end  
+})
+
+MTab:AddButton({
+	Name = "She Make Me",
+	Callback = function()
+local s = Instance.new("Sound", workspace)
+ s.Volume  = 100
+ s.SoundId = "rbxassetid://1841807265"
+ s.Looped  = true
+ s:Play()
+wait(3)
+end  
+})
 -- Power Stats
 statsParagraph = KTab:AddParagraph("Your Stats", "Loading..")
 
