@@ -1543,6 +1543,18 @@ wait(3)
 end  
 })
 
+MTab:AddButton({
+	Name = "Safe & Sound",
+	Callback = function()
+local s = Instance.new("Sound", workspace)
+ s.Volume  = 100
+ s.SoundId = "rbxassetid://7024233823"
+ s.Looped  = false
+ s:Play()
+wait(3)
+end  
+})
+
 -- Power Stats
 statsParagraph = KTab:AddParagraph("Your Stats", "Loading..")
 
