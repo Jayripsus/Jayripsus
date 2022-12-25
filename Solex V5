@@ -1114,12 +1114,19 @@ local MTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-MTab:AddParagraph("Updates","This, is the music section for sword simulator You're allowed to change the music or delete the original music to the game - 2022 Update Added more music, such as Pendulum, Chasing Clouds, Crush, and more others")
+MTab:AddParagraph("Updates - Information","This, is the music section for sword simulator You're allowed to change the music or delete the original music to the game - 2022 Update Added more music, such as Pendulum, Chasing Clouds, Crush, and more others - Fixed Weapon Simulator 2 Music Deleter")
 
 MTab:AddButton({
 	Name = "Delete Sword Simulator Music",
 	Callback = function()
 game:GetService("Workspace").Script:Destroy()
+end    
+})
+
+MTab:AddButton({
+	Name = "Delete Weapon Simulator 2 Music - Fixed",
+	Callback = function()
+game:GetService("Workspace")["Christmas Map"].music:Destroy()
 end    
 })
 
