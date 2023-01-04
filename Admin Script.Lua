@@ -35,7 +35,7 @@ LPlayer.Chatted:Connect(function(msg)
 	else
 		if msg:match(";cmds") then
 			wait(1)
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Admin%20Commands.lua",true))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Admin%20Commands.lua",true))()
 		else
 			if msg:match(";credits") then
 				wait(1)
