@@ -4,7 +4,7 @@ local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.S
 Event:FireServer(A_1, A_2)
 -- Main Script Code
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Demon Hub Blood Paid (10/12/2021)", "BloodTheme")
+local Window = Library.CreateLib("Demon Hub Blood Paid (2023)", "BloodTheme")
 
 --Main
 local Main = Window:NewTab("Local Guis")
@@ -3003,12 +3003,12 @@ end
 end)
 
 -- Other Hub
-local Tab = Window:NewTab("Solex Premium 2.1.2b")
-local TabSection = Tab:NewSection("Welcome To Solex")
+local Tab = Window:NewTab("Solex Premium - V5")
+local TabSection = Tab:NewSection("No information")
 
 -- Evil Script.
-TabSection:NewButton("Solex Premium Hub 2.1.2b", "thanks for using", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Demon1131/Hubs/main/Zsycho%20Premium%20Hub",true))()
+TabSection:NewButton("Solex Premium Hub 5.0.9c", "thanks for using", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Solex%20V5"))()
 end)
 -- Dex Dark Code
 
