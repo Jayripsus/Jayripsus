@@ -1,11 +1,11 @@
-local A_1 = game.Players.LocalPlayer.name.." [Alzn's Solex Premium Hub 2.1.2b]"-----message here
+local A_1 = game.Players.LocalPlayer.name.." [Alzn's Solex Premium Hub 5.0.9c]"-----message here
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
 -----message -----
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Solex Premium Hub 2.1.2b", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Solex Premium Hub 5.0.9c", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Misc",
@@ -13,7 +13,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Notification","Latest Version, Fix some errors with some musics. Also Added - Exclusive Hub 2022 - Update - Fixed Sword Simulator Music Deleter Fixed by (Fallen#1599)")
+Tab:AddParagraph("Notification","Latest Version 2023, Fixed - Discord Link Added more music to the music section Updated admin commands - Fixed some errors.")
 
 OrionLib:MakeNotification({
 	Name = "Notification",
@@ -693,7 +693,7 @@ SwordsTab:AddButton({
             equipAll()
             
             workspace.load.RemoteEvent:FireServer()
-            wait(0.21)
+            wait(0.18)
         end
         equipAll()
         OrionLib:MakeNotification({
@@ -1088,7 +1088,7 @@ local uiTab = Window:MakeTab({
 })
 
 uiTab:AddButton({
-	Name = "Discord Link",
+	Name = "Discord Link - Fixed",
 	Callback = function()
       		request({
    Url = "http://127.0.0.1:6463/rpc?v=1",
@@ -1100,7 +1100,7 @@ uiTab:AddButton({
    Body = game:GetService("HttpService"):JSONEncode({
        cmd = "INVITE_BROWSER",
        args = {
-           code = "XXGqcmKE7B"
+           code = "rFPRy8MAEW"
        },
        nonce = game:GetService("HttpService"):GenerateGUID(false)
    }),
@@ -1126,7 +1126,7 @@ end
 MTab:AddButton({
 	Name = "Delete Weapon Simulator 2 Music - Fixed",
 	Callback = function()
-game:GetService("Workspace")["Christmas Map"].music:Destroy()
+game:GetService("Workspace").Main:Destroy()
 end    
 })
 
@@ -1562,8 +1562,32 @@ wait(3)
 end  
 })
 
--- Power Stats
-statsParagraph = KTab:AddParagraph("Your Stats", "Loading..")
+MTab:AddButton({
+	Name = "Dreamers",
+	Callback = function()
+local s = Instance.new("Sound", workspace)
+ s.Volume  = 100
+ s.SoundId = "rbxassetid://7029083554"
+ s.Looped  = true
+ s:Play()
+wait(3)
+end  
+})
+
+MTab:AddButton({
+	Name = "Internet Boy",
+	Callback = function()
+local s = Instance.new("Sound", workspace)
+ s.Volume  = 100
+ s.SoundId = "rbxassetid://5410084870"
+ s.Looped  = false
+ s:Play()
+wait(3)
+end  
+})
+
+-- Power Information - (Status Working)
+statsParagraph = KTab:AddParagraph("Power Information", "Loading..")
 
 function getAllSwords()
     local allTools = {}
