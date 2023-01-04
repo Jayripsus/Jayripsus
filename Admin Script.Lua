@@ -201,7 +201,7 @@ if toggle == true then
 				loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/Sword-Simulator-GUI/master/main.lua"), true))()
 			else
 			
-            if msg:match(";kill aura") then
+            if msg:match(";kill all") then
 				loadstring(game:HttpGet(("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Kill%20Aura%20Paid.lua"), true))()
 			else
 				
