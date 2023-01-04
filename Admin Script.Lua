@@ -36,9 +36,7 @@ LPlayer.Chatted:Connect(function(msg)
 		if msg:match(";cmds") then
 			wait(1)
 			local A_1 = "[Current Commands: ;fastdupe, ;credits, ;god ;rj, ;help ;crasher ;effects ;god giver, please look in the Solex server for any other commands.]"-----message here
-			local A_2 = "All"
-			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-			Event:FireServer(A_1, A_2)
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Admin%20Commands.lua",true))()
 		else
 			if msg:match(";credits") then
 				wait(1)
