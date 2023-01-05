@@ -13,7 +13,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Notification","Latest Version 2023, Fixed - Discord Link Added more music to the music section - Changed the name to Remorse Premium.")
+Tab:AddParagraph("Notification","Latest Version 2023, Fixed - Discord Link Added more music to the music section - Changed the name to Remorse Premium - Added Line's Script Hub v2.1.3.")
 
 OrionLib:MakeNotification({
 	Name = "Notification",
@@ -855,7 +855,7 @@ end
 })
 
 JTab:AddButton({
-	Name = " Your kills - information.",
+	Name = "Your kills - information.",
 	Callback = function()
      -- Gui to Lua
 -- Version: 3.2
@@ -884,7 +884,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.Size = UDim2.new(0, 311, 0, 36)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Information below ⬇️"
+TextLabel.Text = "Information below ^_^"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 20.000
 
@@ -954,6 +954,15 @@ JTab:AddButton({
 	Callback = function()
      -- Love leaked
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AlznX/Sword-Simulator-2take1.tk/main/Sniper%20Hub",true))()
+  	end    
+})
+
+-- *Leaked*
+JTab:AddButton({
+	Name = "Line's Script Hub v2.1.3 - leaked",
+	Callback = function()
+     -- Love leaked
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zacky-pixel-sketch/Hubs/main/Demon%20hub%20source%20code.lua",true))()
   	end    
 })
 
