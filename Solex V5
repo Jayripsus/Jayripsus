@@ -1,11 +1,11 @@
-local A_1 = game.Players.LocalPlayer.name.." [Alzn's Solex Premium Hub 5.0.9c]"-----message here
+local A_1 = game.Players.LocalPlayer.name.." [Remorse Premium Hub 5.0.9c]"-----message here
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
 -----message -----
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Solex Premium Hub 5.0.9c", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Remorse Premium Hub 5.0.9c", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Misc",
@@ -13,11 +13,11 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Notification","Latest Version 2023, Fixed - Discord Link Added more music to the music section Updated admin commands - Fixed some errors.")
+Tab:AddParagraph("Notification","Latest Version 2023, Fixed - Discord Link Added more music to the music section - Changed the name to Remorse Premium.")
 
 OrionLib:MakeNotification({
 	Name = "Notification",
-	Content = "Hello, Welcome to Solex We appreciate you Solex Community Member",
+	Content = "Hello, Welcome to Remorse You have been successfully whitelisted, please enjoy",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
@@ -430,7 +430,7 @@ for i, sword in pairs(swords) do
 end
   	end    
 })
--- Other Codeing
+-- Other Tab
 local SexTab = Window:MakeTab({
 	Name = "Other",
 	Icon = "rbxassetid://4483345998",
@@ -640,10 +640,10 @@ SexTab:AddButton({
   	end    
 })
 
--- Other Tab
+-- Remorse Tab
 
 local JTab = Window:MakeTab({
-	Name = "Solex",
+	Name = "Remorse Mode",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -855,7 +855,7 @@ end
 })
 
 JTab:AddButton({
-	Name = "Your Kill's",
+	Name = " Your kills - information.",
 	Callback = function()
      -- Gui to Lua
 -- Version: 3.2
@@ -884,7 +884,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.Size = UDim2.new(0, 311, 0, 36)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Thanks For Using"
+TextLabel.Text = "Information below ⬇️"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 20.000
 
@@ -916,7 +916,7 @@ coroutine.wrap(BEZD_fake_script)()
 -----message CODE
 
 JTab:AddButton({
-	Name = "Slayer Hub Key (3heXyJ52QVBGSfmByEe0)",
+	Name = "Slayer Hub",
 	Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Slayer%20hub"))()
   	end    
@@ -950,7 +950,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/m
 
 -- *Leaked*
 JTab:AddButton({
-	Name = "Sniper Hub (Key 324jgjdjgjdh)",
+	Name = "Sniper Hub",
 	Callback = function()
      -- Love leaked
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AlznX/Sword-Simulator-2take1.tk/main/Sniper%20Hub",true))()
@@ -958,7 +958,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AlznX/Sword-Simulator
 })
 
 JTab:AddButton({
-	Name = "Bring All (Require Swords)",
+	Name = "Bring All - Require Swords",
 	Callback = function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Bring%20All.lua",true))()
   	end    
@@ -1109,12 +1109,12 @@ uiTab:AddButton({
 })
 
 local MTab = Window:MakeTab({
-	Name = "Music Section",
+	Name = "Music Selector",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-MTab:AddParagraph("Updates - Information","This, is the music section for sword simulator You're allowed to change the music or delete the original music to the game - 2022 Update Added more music, such as Pendulum, Chasing Clouds, Crush, and more others - Fixed Weapon Simulator 2 Music Deleter")
+MTab:AddParagraph("Updates - Information","This, is the music section for sword simulator You're allowed to change the music or delete the original music to the game - 2023 Update Added more music, such as Pendulum, Chasing Clouds, Crush, and more others - Fixed Weapon Simulator 2 Music Deleter Some musics may not work, but have been discontinued. Therefore, I probably will not delete them I will be adding more soon...")
 
 MTab:AddButton({
 	Name = "Delete Sword Simulator Music",
@@ -1154,12 +1154,12 @@ wait(3)
 })
 
 MTab:AddButton({
-	Name = "TOMB",
+	Name = "TOMB - looped",
 	Callback = function()
       		local s = Instance.new("Sound", workspace)
  s.Volume  = 1
  s.SoundId = "rbxassetid://6782202354"
- s.Looped  = false
+ s.Looped  = true
  s:Play()
 wait(3)
   	end    
@@ -1587,7 +1587,7 @@ end
 })
 
 -- Power Information - (Status Working)
-statsParagraph = KTab:AddParagraph("Power Information", "Loading..")
+statsParagraph = KTab:AddParagraph("Power Information", "Unable, to recognize your power.")
 
 function getAllSwords()
     local allTools = {}
