@@ -3007,7 +3007,7 @@ local Tab = Window:NewTab("Solex Premium - V5")
 local TabSection = Tab:NewSection("No information")
 
 -- Evil Script.
-TabSection:NewButton("Solex Premium Hub 5.0.9c", "thanks for using", function()
+TabSection:NewButton("Akari X Premium Hub 5.1.8b", "Appreciate all of your support 2023", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Solex%20V5"))()
 end)
 -- Dex Dark Code
