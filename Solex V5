@@ -13,7 +13,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Notification","Latest Version 2023, Fixed - Discord Link Added more music to the music section - Changed the name to Akari X Premium - Added Line's Script Hub v2.1.3.")
+Tab:AddParagraph("Notification","Latest Version 2023, Fixed - Discord Link Added more music to the music section - Changed the name to Akari X Premium - Added Line's Script Hub v2.1.3 Successfully remove sniper hub due to it has been removed by the owner.")
 
 OrionLib:MakeNotification({
 	Name = "Notification",
@@ -693,7 +693,7 @@ SwordsTab:AddButton({
             equipAll()
             
             workspace.load.RemoteEvent:FireServer()
-            wait(0.18)
+            wait(0.15)
         end
         equipAll()
         OrionLib:MakeNotification({
@@ -948,12 +948,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/m
   	end    
 })
 
--- *Leaked*
+-- Deleted
 JTab:AddButton({
-	Name = "Sniper Hub",
+	Name = "Iv Admin - Replaced",
 	Callback = function()
-     -- Love leaked
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AlznX/Sword-Simulator-2take1.tk/main/Sniper%20Hub",true))()
+     -- Admin ???
+loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hexx/main/Iv%20Admin/Admin.lua'))()
   	end    
 })
 
@@ -961,7 +961,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AlznX/Sword-Simulator
 JTab:AddButton({
 	Name = "Line's Script Hub v2.1.3 - leaked",
 	Callback = function()
-     -- Love leaked
+     -- By Alzn
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Zacky-pixel-sketch/Hubs/main/Demon%20hub%20source%20code.lua",true))()
   	end    
 })
@@ -1123,7 +1123,7 @@ local MTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-MTab:AddParagraph("Updates - Information","This, is the music section for sword simulator You're allowed to change the music or delete the original music to the game - 2023 Update Added more music, such as Pendulum, Chasing Clouds, Crush, and more others - Fixed Weapon Simulator 2 Music Deleter Some musics may not work, but have been discontinued. Therefore, I probably will not delete them I will be adding more soon...")
+MTab:AddParagraph("Updates - Information","This, is the music section for Sword Simulator, You're allowed to change the music or delete the original music to the game - 2023 Update Added more music, such as Pendulum, Chasing Clouds, Crush, and more others - Fixed Weapon Simulator 2 Music Deleter Some musics may not work, but have been discontinued. Therefore, I probably will not delete them.")
 
 MTab:AddButton({
 	Name = "Delete Sword Simulator Music",
@@ -1133,16 +1133,16 @@ end
 })
 
 MTab:AddButton({
-	Name = "Delete Weapon Simulator 2 Music - Fixed",
-	Callback = function()
+Name = "Delete Weapon Simulator 2 Music - Fixed",
+Callback = function()
 game:GetService("Workspace").Main:Destroy()
 end    
 })
 
 MTab:AddButton({
-	Name = "Stop Music",
-	Callback = function()
-      		for i,v in pairs(game.Workspace:GetChildren()) do
+Name = "Stop Music",
+Callback = function()
+for i,v in pairs(game.Workspace:GetChildren()) do
 if v.ClassName == 'Sound' then
 v:Destroy()
 end
@@ -1151,39 +1151,39 @@ end
 })
 
 MTab:AddButton({
-	Name = "New World",
-	Callback = function()
-      		local s = Instance.new("Sound", workspace)
- s.Volume  = 1
- s.SoundId = "rbxassetid://5410082346"
- s.Looped  = false
- s:Play()
+Name = "New World",
+Callback = function()
+local s = Instance.new("Sound", workspace)
+s.Volume  = 1
+s.SoundId = "rbxassetid://5410082346"
+s.Looped  = false
+s:Play()
 wait(3)
-  	end    
+end    
 })
 
 MTab:AddButton({
-	Name = "TOMB - looped",
-	Callback = function()
-      		local s = Instance.new("Sound", workspace)
- s.Volume  = 1
- s.SoundId = "rbxassetid://6782202354"
- s.Looped  = true
- s:Play()
+Name = "TOMB - looped",
+Callback = function()
+local s = Instance.new("Sound", workspace)
+s.Volume  = 1
+s.SoundId = "rbxassetid://6782202354"
+s.Looped  = true
+s:Play()
 wait(3)
-  	end    
+end    
 })
 
 MTab:AddButton({
-	Name = "Take me",
-	Callback = function()
-      		local s = Instance.new("Sound", workspace)
- s.Volume  = 1
- s.SoundId = "rbxassetid://7029070008"
- s.Looped  = false
- s:Play()
+Name = "Take me",
+Callback = function()
+local s = Instance.new("Sound", workspace)
+s.Volume  = 1
+s.SoundId = "rbxassetid://7029070008"
+s.Looped  = false
+s:Play()
 wait(3)
-  	end    
+end    
 })
 
 MTab:AddButton({
