@@ -1,11 +1,11 @@
-local A_1 = game.Players.LocalPlayer.name.." [Remorse Premium Hub 5.0.9c]"-----message here
+local A_1 = game.Players.LocalPlayer.name.." [Akari X Premium Hub 5.1.8b]"-----message here
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
 -----message -----
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Remorse Premium Hub 5.0.9c", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Akari X Premium Hub 5.1.8b", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Misc",
@@ -13,11 +13,11 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Notification","Latest Version 2023, Fixed - Discord Link Added more music to the music section - Changed the name to Remorse Premium - Added Line's Script Hub v2.1.3.")
+Tab:AddParagraph("Notification","Latest Version 2023, Fixed - Discord Link Added more music to the music section - Changed the name to Akari X Premium - Added Line's Script Hub v2.1.3.")
 
 OrionLib:MakeNotification({
 	Name = "Notification",
-	Content = "Hello, Welcome to Remorse You have been successfully whitelisted, please enjoy",
+	Content = "Hello, Welcome to Your Akari X, You have been successfully whitelisted, please enjoy",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
@@ -1109,7 +1109,7 @@ uiTab:AddButton({
    Body = game:GetService("HttpService"):JSONEncode({
        cmd = "INVITE_BROWSER",
        args = {
-           code = "rFPRy8MAEW"
+           code = "ad3ax2Mmem"
        },
        nonce = game:GetService("HttpService"):GenerateGUID(false)
    }),
