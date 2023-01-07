@@ -357,7 +357,7 @@ end
 })
 
 Tab:AddButton({
-	Name = "Sword Form 7",
+	Name = "Sword Spin Form 7 - Rejoined Required",
 	Callback = function()
       		while true do
 local player = game.Players.LocalPlayer
