@@ -3008,7 +3008,7 @@ local TabSection = Tab:NewSection("No information")
 
 -- Evil Script.
 TabSection:NewButton("Akari X Premium Hub 5.1.8b", "Appreciate all of your support 2023", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Solex%20V5"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/WeAreBad.lua"))()
 end)
 -- Dex Dark Code
 
