@@ -10,7 +10,7 @@ local Window = Library.CreateLib("Demon Hub Blood Paid (2023)", "BloodTheme")
 local Main = Window:NewTab("Local Guis")
 local Section = Main:NewSection("Gui Section")
 -- Local
-Section:NewButton("AutoFarm", "Give's You Power", function()
+Section:NewButton("AutoFarm", "Farms you power overnight.", function()
    local Event = game:service'Players'.LocalPlayer.Character.sword.Handle.up.RemoteEvent
 game:service'RunService'.RenderStepped:Connect(function()
 for i = 1, 5 do
@@ -30,11 +30,11 @@ end
 end
 end)
 
-Section:NewButton("Sword Simulator Hub", "My Old GUI form Back in 2021", function()
+Section:NewButton("Sword Simulator Hub", "Old model GUI.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AlznX/Sword-Simulator-2take1.tk/main/Sword%20Simulator%20Hub",true))()
 end)
 
-Section:NewButton("Weapon Simulator 2 GUI", "Weapon Simulator 2 Auto Farm Sword Damage And God Mode!", function()
+Section:NewButton("Weapon Simulator 2 GUI", "Weapon Simulator 2 Farm.", function()
     
 local ScreenGui = Instance.new("ScreenGui")
 local TextButton = Instance.new("TextButton")
@@ -203,7 +203,7 @@ TextButton_6.MouseButton1Down:connect(function()
 end)
 end)
 
-Section:NewButton("Psycho's Sword Simulator GUI", "My Old Gui somethings don't work", function()
+Section:NewButton("Psycho's Sword Simulator GUI", " PsychoXpeach Gui.", function()
 local A_1 = game.Players.LocalPlayer.name.." [Loaded Psycho's Sword Simulator GUI] "-----message here
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
@@ -1636,7 +1636,7 @@ end
 end
 end)
 
-Section:NewButton("Sword Ring", "Ring Of Sword's Click X to Stop it form Spining...", function()
+Section:NewButton("Sword Ring", "Click X to stop", function()
     local player = game.Players.LocalPlayer
 local distance = 50
 local speed = 1
@@ -1745,7 +1745,7 @@ look(character)
     
 end)
 
-Section:NewButton("Replication UI", "Something :)", function()
+Section:NewButton("Replication UI", "Replication UI", function()
     local screenGui = game:GetObjects("rbxassetid://3546404827")[1]
   local mainFrame = screenGui.Frame
     local pages = mainFrame.Pages
@@ -2160,7 +2160,7 @@ end)
 workspace:WaitForChild("S")
 end)
 
-PlayerSection:NewButton("AntiAfk", "So You Don't get Kicked For Being Afk...", function()
+PlayerSection:NewButton("AntiAfk", " Go Afk as long as you want", function()
     wait(0.5)local ba=Instance.new("ScreenGui")
 local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
 local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
@@ -2182,7 +2182,7 @@ bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="Roblox tried to kick u but i kicked him instead"wait(2)ab.Text="Status : Active"end)
 end)
 
-Section:NewButton("Ghost_Hub", "Script By A Freind.", function()
+Section:NewButton("Ghost_Hub", "Script Niko.", function()
     local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
 
 local w = library:CreateWindow("Ghost Hub") -- Creates the window
@@ -2605,11 +2605,11 @@ end)
  Event:FireServer(A_1, A_2)
 end)
 
-OtherSection:NewKeybind("Keybind", "Open And cloes useing the F key", Enum.KeyCode.F, function()
+OtherSection:NewKeybind("Keybind", "F Open/Close.", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
 
-Section:NewButton("Sword Style", "Just a cooler Sword...", function()
+Section:NewButton("Sword Style", "Sword form original.", function()
     local player = game.Players.LocalPlayer
 local character = player.Character
 local backpack = player.Backpack
@@ -2642,12 +2642,12 @@ look(character)
     last.Parent = player.Character 
 end)
 
-Section:NewButton("NullWare", "The Best FE Scripts...", function()
+Section:NewButton("NullWare", "The Best FE Scripts.", function()
     getgenv().Theme = "Blue" -- To change the UI Theme, set this to one of the following options: "Red", "Purple", "Blue", "Green", "Yellow"
 loadstring(game:HttpGet("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/2d722888a388017c18028cd434c43a25/raw/dcccf1027fe4b90780e47767aaf584389c9d7771/EULma3fU90PUOKUn?identifier=".. (function()local a=""for b=1,256 do local c=math.random(1,3)a=a..string.char(c==1 and math.random(48,57)or c==2 and math.random(97,122)or c==3 and math.random(65,90))end;return a end)()))()
 end)
 
-OtherSection:NewButton("Internal UI", "Use This If Your  Exploit Crash's", function()
+OtherSection:NewButton("Internal UI", "Internal.", function()
 local A_1 = game.Players.LocalPlayer.name.." [Loaded Solex Internal UI] "-----message here
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
@@ -2716,18 +2716,18 @@ for it, vt in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
 end
 end)
 
-OtherSection:NewButton("infinite yield", "Admin Script.", function()
+OtherSection:NewButton("infinite yield", "Admin local.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",true))()
 end)
 
-OtherSection:NewButton("Sword Wings", "Changes your sword into wings.", function()
+OtherSection:NewButton("Sword Wings", "Emperor wings.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Emperor%20Wings.lua",true))()
 end)
 -- Effects
 local Main = Window:NewTab("Sword Effects")
-local Section = Main:NewSection("Color Here.")
+local Section = Main:NewSection("Changes, the color of your sword.")
 
-Section:NewButton("Red And Blue", "Dupe", function()
+Section:NewButton("Red And Blue", "???", function()
      local SumPValues = 0
 local amountPlayerCount = 0
 for i = 1, 20
@@ -2782,7 +2782,7 @@ for it, vt in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
 end
 end)
 
-Section:NewButton("Black And Blue", "Dupe", function()
+Section:NewButton("Black And Blue", "???", function()
      local SumPValues = 0
 local amountPlayerCount = 0
 for i = 1, 20
@@ -2837,7 +2837,7 @@ for it, vt in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
 end
 end)
 
-Section:NewButton("Black And Red", "Dupe", function()
+Section:NewButton("Black And Red", "???", function()
      local SumPValues = 0
 local amountPlayerCount = 0
 for i = 1, 20
@@ -3016,7 +3016,7 @@ OtherSection:NewButton("Dex Dark", "Dex Dark", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Dex%20Dark.Lua",true))()
 end)
 
-OtherSection:NewButton("Sword Shoulder", "Need's 19 Or 10 Swords For it to work", function()
+OtherSection:NewButton("Sword Shoulder", "Swords in inventory required.", function()
     ---------------Non Fe By Alzn---------------
 
 --YOU NEED 19 OR MORE SWORDS FOR THIS TO WORK!
