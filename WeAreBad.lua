@@ -693,7 +693,7 @@ SwordsTab:AddButton({
             equipAll()
             
             workspace.load.RemoteEvent:FireServer()
-            wait(0.15)
+            wait(0.21)
         end
         equipAll()
         OrionLib:MakeNotification({
