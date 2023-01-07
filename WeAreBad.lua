@@ -13,7 +13,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Notification","Latest Version 2023, Fixed - Discord Link Added more music to the music section - Changed the name to Akari X Premium - Added Line's Script Hub v2.1.3 Successfully remove sniper hub due to it has been removed by the owner.")
+Tab:AddParagraph("Notification","Latest Version 2023, Fixed - Discord Link Added more music to the music section - Changed the name to Akari X Premium - Added Line's Script Hub v2.1.3 Successfully remove sniper hub due to it has been removed by the owner - Added Better Sword range Non Fe.")
 
 OrionLib:MakeNotification({
 	Name = "Notification",
@@ -477,6 +477,13 @@ SexTab:AddButton({
 	Name = "Animation Changer",
 	Callback = function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Animation%20Changer"), true))()
+  	end    
+})
+
+SexTab:AddButton({
+	Name = "Sword Range - Better",
+	Callback = function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Developer.Lua"), true))()
   	end    
 })
 
