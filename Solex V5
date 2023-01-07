@@ -455,7 +455,7 @@ SexTab:AddButton({
 SexTab:AddButton({
 	Name = "God Giver",
 	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Demon1131/Hubs/main/God%20Giver",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/Stop.lua",true))()
   	end    
 })
 
