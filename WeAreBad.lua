@@ -460,6 +460,13 @@ SexTab:AddButton({
 })
 
 SexTab:AddButton({
+	Name = "FPS Booster - Obfuscator Slave#9390",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/FPS%20booster.Lua",true))()
+  	end    
+})
+
+SexTab:AddButton({
 	Name = "Sword Damage",
 	Callback = function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/Sword-Simulator-GUI/master/main.lua"), true))()
@@ -1136,6 +1143,13 @@ MTab:AddButton({
 	Name = "Delete Sword Simulator Music",
 	Callback = function()
 game:GetService("Workspace").Script:Destroy()
+end    
+})
+
+MTab:AddButton({
+	Name = "Face Deleter - Only Akari",
+	Callback = function()
+game:GetService("Workspace")["Zakari_Remorse"].Head.face:Destroy()
 end    
 })
 
