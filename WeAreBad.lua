@@ -1139,17 +1139,26 @@ local MTab = Window:MakeTab({
 
 MTab:AddParagraph("Updates - Information","This, is the music section for Sword Simulator, You're allowed to change the music or delete the original music to the game - 2023 Update Added more music, such as Pendulum, Chasing Clouds, Crush, and more others - Fixed Weapon Simulator 2 Music Deleter Some musics may not work, but have been discontinued. Therefore, I probably will not delete them.")
 
-MTab:AddButton({
-	Name = "Delete Sword Simulator Music",
+-- Only Akari
+local ATab = Window:MakeTab({
+	Name = "Akari - Section",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+ATab:AddParagraph("Notification","This, section is specifically only for Akari No one else will be able to use this section It's exclusive.")
+
+ATab:AddButton({
+	Name = "Face Deleter - Only Akari",
 	Callback = function()
-game:GetService("Workspace").Script:Destroy()
+game:GetService("Workspace")["Zakari_Remorse"].Head.face:Destroy()
 end    
 })
 
 MTab:AddButton({
-	Name = "Face Deleter - Only Akari",
+	Name = "Delete Sword Simulator Music",
 	Callback = function()
-game:GetService("Workspace")["Zakari_Remorse"].Head.face:Destroy()
+game:GetService("Workspace").Script:Destroy()
 end    
 })
 
