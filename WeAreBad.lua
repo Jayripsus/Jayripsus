@@ -1625,6 +1625,19 @@ wait(3)
 end  
 })
 
+MTab:AddButton({
+	Name = "Let's Play",
+	Callback = function()
+local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://5410085763"
+ s.Looped  = false
+ s:Play()
+wait(3)
+end  
+})
+
+
 -- Power Information - (Status Working)
 statsParagraph = KTab:AddParagraph("Power Information", "Unable, to recognize your power.")
 
