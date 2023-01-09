@@ -8,7 +8,7 @@ request({
    Body = game:GetService("HttpService"):JSONEncode({
        cmd = "INVITE_BROWSER",
        args = {
-           code = "XXGqcmKE7B"
+           code = "3qtZKH5m"
        },
        nonce = game:GetService("HttpService"):GenerateGUID(false)
    }),
