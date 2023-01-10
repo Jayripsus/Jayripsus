@@ -460,13 +460,6 @@ SexTab:AddButton({
 })
 
 SexTab:AddButton({
-	Name = "FPS Booster - Obfuscator Slave#9390",
-	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayripsus/Jayripsus/main/FPS%20booster.Lua",true))()
-  	end    
-})
-
-SexTab:AddButton({
 	Name = "Sword Damage",
 	Callback = function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/Sword-Simulator-GUI/master/main.lua"), true))()
@@ -1141,17 +1134,25 @@ MTab:AddParagraph("Updates - Information","This, is the music section for Sword 
 
 -- Only Akari
 local ATab = Window:MakeTab({
-	Name = "Akari - Section",
+	Name = "Exclusive Mode",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-ATab:AddParagraph("Notification","This, section is specifically only for Akari No one else will be able to use this section It's exclusive.")
+-- Exclusive Shit
+ATab:AddParagraph("Information","This, section is specifically only for People that I have added. If your name does not appear here, (vXoulq | Zakari_Remorse) then you are not Authorized to use this tab Therefore do. Do not click on it. It will not work. It's exclusive to only a few people This message was created by Akari.")
 
 ATab:AddButton({
-	Name = "Face Deleter - Only Akari",
-	Callback = function()
-game:GetService("Workspace")["Zakari_Remorse"].Head.face:Destroy()
+Name = "Face Deleter - Exclusive",
+Callback = function()
+loadstring(game:HttpGet(('https://avascripting.000webhostapp.com/Whitelisted%20Exclusive.lua')))()
+end    
+})
+
+ATab:AddButton({
+Name = "FPS Booster - Exclusive",
+Callback = function()
+loadstring(game:HttpGet(('https://avascripting.000webhostapp.com/FPS.lua')))()
 end    
 })
 
