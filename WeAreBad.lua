@@ -1,11 +1,11 @@
-local A_1 = game.Players.LocalPlayer.name.." [Akari X Premium Hub 5.1.8b]"-----message here
+local A_1 = game.Players.LocalPlayer.name.." [Akari X Premium Hub 5.2.2b]"-----message here
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
 -----message -----
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Akari X Premium Hub 5.1.8b", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Akari X Premium Hub  Version | bQeThWmZ", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Misc",
@@ -1638,6 +1638,66 @@ wait(3)
 end  
 })
 
+
+MTab:AddButton({
+	Name = "Night",
+	Callback = function()
+local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://1836879421"
+ s.Looped  = false
+ s:Play()
+wait(3)
+end  
+})
+
+MTab:AddButton({
+	Name = "Pull Over",
+	Callback = function()
+local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://1839983980"
+ s.Looped  = false
+ s:Play()
+wait(3)
+end  
+})
+
+MTab:AddButton({
+	Name = "Just - Hold On",
+	Callback = function()
+local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://1842019635"
+ s.Looped  = false
+ s:Play()
+wait(3)
+end  
+})
+
+MTab:AddButton({
+	Name = "Just - Hold On",
+	Callback = function()
+local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://1842019635"
+ s.Looped  = false
+ s:Play()
+wait(3)
+end  
+})
+
+MTab:AddButton({
+	Name = "Boom - Clap",
+	Callback = function()
+local s = Instance.new("Sound", workspace)
+ s.Volume  = 1
+ s.SoundId = "rbxassetid://189739789"
+ s.Looped  = false
+ s:Play()
+wait(3)
+end  
+})
 
 -- Power Information - (Status Working)
 statsParagraph = KTab:AddParagraph("Power Information", "Unable, to recognize your power.")
