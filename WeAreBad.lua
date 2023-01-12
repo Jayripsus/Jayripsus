@@ -1,11 +1,11 @@
-local A_1 = game.Players.LocalPlayer.name.." [Akari X Premium Hub 5.2.2b]"-----message here
+local A_1 = game.Players.LocalPlayer.name.." [Loaded Akari X Premium Hub]"-----message here
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
 -----message -----
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Akari X Premium Hub  Version | bQeThWmZ", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Akari X Premium Hub Version | bQeThWmZ", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Misc",
@@ -19,7 +19,7 @@ OrionLib:MakeNotification({
 	Name = "Notification",
 	Content = "Hello, Welcome to Your Akari X, You have been successfully whitelisted, please enjoy",
 	Image = "rbxassetid://4483345998",
-	Time = 10
+	Time = 19
 })
 
 Tab:AddButton({
@@ -1676,11 +1676,11 @@ end
 })
 
 MTab:AddButton({
-	Name = "Just - Hold On",
+	Name = "Function | Deleted",
 	Callback = function()
 local s = Instance.new("Sound", workspace)
  s.Volume  = 1
- s.SoundId = "rbxassetid://1842019635"
+ s.SoundId = "rbxassetid://"
  s.Looped  = false
  s:Play()
 wait(3)
